@@ -1,0 +1,15 @@
+OPENQASM 2.0;
+include "qelib1.inc";
+qreg q[66];
+creg c[5];
+cx q[38],q[45];
+rz(2.9553280200351226) q[45];
+sx q[49];
+sx q[29];
+x q[44];
+rz(-2.248977291280988) q[29];
+measure q[38] -> c[0];
+measure q[44] -> c[1];
+measure q[45] -> c[2];
+measure q[49] -> c[3];
+measure q[29] -> c[4];

@@ -1,0 +1,5 @@
+Num_1Q_Gates,Num_2Q_Gates,circuit_depth,circuit_width,Avg_inverted_error_25,Avg_inverted_error_50,Avg_inverted_error_75,Avg_odds_ratio,state_weight,observed_prob_25,observed_prob_50,observed_prob_75,target
+20,2,15,29,6.0,5.97,6.01,1.02,1,20.19,20.27,20.34,20.14
+20,2,15,29,6.0,5.97,6.01,1.0,2,23.47,23.48,23.5,24.16
+20,2,15,29,6.0,5.97,6.01,1.02,0,53.75,53.84,53.94,54.39
+20,2,15,29,6.0,5.97,6.01,1.0,1,2.4,2.4,2.4,1.31
