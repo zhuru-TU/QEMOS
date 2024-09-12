@@ -14,7 +14,7 @@
 - torch 2.3.0+cu121
 - sklearn 1.3.1
 
-##### The models in this project have been trained and placed in the result folder (with a. pk suffix), but due to file size limitations, we have compressed them.  if you need to obtain the model, you need to clone the entire project using FLS. When running this project, we should first decompress these models. In addition, if you want to run a quantum computer on a quantum cloud platform, you should first apply for an account（ https://qc.zdxlz.com/laboratory/#/computerManage?lang=zh ）Then copy the assigned key to the appropriate location. Suggest using VSCode to create a new virtual environment to run this project. The code files in this project are described as follows:
+##### The models in this project have been trained and placed in the result folder (with a. pk suffix), Due to the large space occupied by the model QEMOS, it cannot be directly uploaded to figshare. However, we have provided the code and data required for model training, and you can follow the instructions in the readme for model training. In addition, if you want to run a quantum computer on a quantum cloud platform, you should first apply for an account（ https://qc.zdxlz.com/laboratory/#/computerManage?lang=zh ）Then copy the assigned key to the appropriate location. Suggest using VSCode to create a new virtual environment to run this project. The code files in this project are described as follows:
 
 - RQ1+RQ3. ipynb: Includes complete QEMOS model and QEMOS model training and testing code after removing some feature data, as well as several other model training and testing codes for comparison
 - RQ_2Q-LEAR.ipynb: Contains training and testing code for the Q-LEAR model
